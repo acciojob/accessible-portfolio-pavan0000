@@ -8,29 +8,50 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<h1 id="heading">My portfolio</h1>
-    <nav id="nav" role="navigation" >
-        
-        <a href="#">Home</a>
-        <a href="#About">About</a>
-        <a href="#project">project</a>
-        <a href="skills">skills</a>
-    </nav>
-
-	<section >
-		<img id="img" src="https://plus.unsplash.com/premium_photo-1691622500373-da5adfe5b2ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="image"/>
-	</section>
-
-	<p>my name is pavan pandey.i am from jaipur .i have complete bca from rajasthan university ;</p>
-	<ol>
-		<li>Project 1</li>
-		<li>Project 2</li>
-		<li>Project 3</li>
-		<li>Project 4</li>
-	</ol>
     <script type="text/javascript" src="./script.js">
 </script>
+ <header role="banner">
+    <h1 role="heading" aria-level="1">My Portfolio</h1>
+    <nav role="navigation">
+      <ul role="list">
+        <li role="listitem"><a href="index.html">Home</a></li>
+        <li role="listitem"><a href="about.html">About</a></li>
+        <li role="listitem"><a href="projects.html">Projects</a></li>
+        <li role="listitem"><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <main role="main">
+    <section role="region">
+      <h2 role="heading" aria-level="2">About Me</h2>
+      <img src="profile.jpg" alt="Profile Picture" role="img">
+      <p>...</p>
+    </section>
+
+    <section role="region">
+      <h2 role="heading" aria-level="2">My Projects</h2>
+      <ul role="list">
+        <li role="listitem">
+          <h3 role="heading" aria-level="3">Project 1</h3>
+          <p>...</p>
+        </li>
+        <li role="listitem">
+          <h3 role="heading" aria-level="3">Project 2</h3>
+          <p>...</p>
+        </li>
+      </ul>
+    </section>
+
+    <section role="region">
+      <h2 role="heading" aria-level="2">Contact Information</h2>
+      <p>...</p>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>...</p>
+  </footer>
 </body>
 
 </html>
